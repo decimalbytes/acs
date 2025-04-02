@@ -100,7 +100,7 @@ function Bypass:HookFireServer()
         end
         if event == "ACDTResponse" then
             return
-        en
+        end
         return self.OriginalFireServer(netObj, event, unpack(args))
     end
 end
